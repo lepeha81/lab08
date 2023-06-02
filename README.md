@@ -128,6 +128,6 @@ run: docker-compose push - пуш образов Docker в Docker Hub.
 
 - name: Deploy with Docker Compose - название шага.
 
-run: docker-compose up -d - запуск контейнеров с помощью Docker Compose в режиме демона.
+run: docker-compose up -d - запуск контейнеров с помощью Docker Compose 
 ![image](https://github.com/lepeha81/lab08/blob/master/7.PNG)
 Команда Docker Compose up развёртывает сервисы веб-приложений и создаёт из docker-образа новые контейнеры, а также сети, тома и все конфигурации, указанные в файле Docker Compose.
